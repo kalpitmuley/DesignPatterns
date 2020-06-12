@@ -42,7 +42,7 @@ public class RotateMatrixBy90 {
     }
 
     static void reverse(int arr[][]) {
-        int n = arr[1].length;
+        int n = arr.length;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n / 2; j++) {
                 int temp = arr[i][j];
